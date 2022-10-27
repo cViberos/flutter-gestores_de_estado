@@ -1,6 +1,6 @@
 # flu_estados
 
-A new Flutter project.
+Un proyecto echo en Flutter para poder practicar los gestores de estado.
 
 ## Getting Started
 
