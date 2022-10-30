@@ -7,9 +7,7 @@ class Pagina1Page extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Pagina 1'),
-      ),
+      appBar: AppBar(title: const Text('Pagina 1')),
       body: StreamBuilder(
         stream: usuarioService.usuarioStream,
         builder: (BuildContext context, AsyncSnapshot<Usuario> snapshot) {
